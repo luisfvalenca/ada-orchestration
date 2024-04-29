@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: producer
-        image: ada-container-app_producer:latest
+        image: ada-orchestration-app_producer:latest
