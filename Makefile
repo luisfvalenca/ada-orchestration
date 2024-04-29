@@ -24,6 +24,6 @@ run:
 	kubectl apply -f ./producer/deploy-producer.yml
 
 	kubectl -- port-forward service/rabbitmq-svc 15672:15672
-    kubectl -- port-forward service/minio-svc 9000:9000
-    kubectl -- port-forward service/minio-svc 9001:9001
-    kubectl -- port-forward service/redis-svc 8001:8001
+	kubectl -- port-forward service/minio-svc 9000:9000
+	kubectl -- port-forward service/minio-svc 9001:9001
+	kubectl -- port-forward service/redis-svc 8001:8001
