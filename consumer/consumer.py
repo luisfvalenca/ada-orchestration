@@ -1,8 +1,11 @@
 import pika
 import json
 import io
+import time
 from conexoes import connect_rabbitmq, connect_redis
 from gera_relatorio import gera_relatorio
+
+time.sleep(30)
 
 queue_name = "fraud-validator_queue"
 first_uf = None

@@ -6,7 +6,7 @@ O sistema verifica se alguma transação seguida foi realizada em alguma outra u
 
 Execute o comando `make build` para construir as imagens mas sem as instanciar.
 
-Caso queira executar a aplicação e os seus conteiners execute o comando `make run`.
+Depois desta passo, executar a aplicação e os seus pods execute o comando `make run`.
 
 As transções geradas pelo producer estão no arquivo `transactions.json`.
 
