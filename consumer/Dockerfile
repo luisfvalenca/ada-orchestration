@@ -8,3 +8,4 @@ RUN pip install -r requirements.txt
 
 ENTRYPOINT [ "/usr/local/bin/python3" ]
 
+CMD [ "consumer.py" ]
