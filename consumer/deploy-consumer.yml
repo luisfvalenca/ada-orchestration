@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: consumer
-        image: ada-orchestration-app_consumer:latest
+        image: luisfvalenca/ada-orchestration-app_consumer:latest
