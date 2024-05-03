@@ -10,9 +10,9 @@ run:
 #	Configura servicos e ingresss
 	minikube addons enable ingress
 	minikube addons enable metrics-server
-	sudo echo "$(minikube ip) minio.ada-orchestration" >> /etc/hosts"
-	sudo echo "$(minikube ip) rabbitmq.ada-orchestration" >> /etc/hosts"
-	sudo echo "$(minikube ip) redis.ada-orchestration" >> /etc/hosts"
+	sudo echo "$(minikube ip) minio.ada-orchestration" >> /etc/hosts
+	sudo echo "$(minikube ip) rabbitmq.ada-orchestration" >> /etc/hosts
+	sudo echo "$(minikube ip) redis.ada-orchestration" >> /etc/hosts
 	
 #	Cria os namespaces e faz apply dos controlers
 	kubectl create namespace backend
