@@ -27,3 +27,6 @@ run:
 	kubectl -- port-forward service/minio-svc 9000:9000
 	kubectl -- port-forward service/minio-svc 9001:9001
 	kubectl -- port-forward service/redis-svc 8001:8001
+
+#	Instancia dashboard para acompanhamento visual
+	minikube dashboard
